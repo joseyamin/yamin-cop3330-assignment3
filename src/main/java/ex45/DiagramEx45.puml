@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class FileEditor{
+String fileStr
+
+String storeInputStr()()
+
+void editFileStr()
+
+String getFileStr()
+
+}
+
+@enduml

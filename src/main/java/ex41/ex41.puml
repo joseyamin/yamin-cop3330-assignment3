@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class PeopleList{
+    Person: PeopleList
+
+    readInPeople()
+    sortPeople()
+    printPeople()
+}
+class Person{
+    String firstName
+    String lastName
+
+    readPerson()
+    getFirstName()
+    getLastName()
+}
+
+PeopleList->Person
+@enduml
